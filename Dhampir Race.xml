@@ -42,7 +42,8 @@
                     the living. Roll on or choose an option from the 
                     Dhampir Hungers table to determine what 
                     tempts your character to feed:</p>
-                    <table>
+                     <h5 class="caption"></h5>
+                    <table class="Race-features">
                         <thead>
                             <tr><td>d8</td><td>Hunger</td></tr>
                         </thead>
