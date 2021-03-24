@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+            <info>
+                    <name>Dhampir</name>
+                    <update Version="1.0">
+                        <file name="Dhampir Race.xml" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/main/Dhampir%20Race.xml" />
+                    </update>
+            </info>
             <element name="Dhampir" type="Race" source="UA Gothic Lineages" id="Dhampir">
                 <description> 
                     <p>Poised between the worlds of the living and the 
