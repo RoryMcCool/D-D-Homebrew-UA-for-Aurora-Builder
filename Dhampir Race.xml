@@ -2,7 +2,7 @@
 <elements>
             <info>
                     <name>Dhampir</name>
-                    <update version="1.0">
+                    <update version="1.1">
                         <file name="Dhampir Race.xml" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/main/Dhampir%20Race.xml" />
                     </update>
             </info>
@@ -25,7 +25,7 @@
                     to distance themselves from those who’d tempt 
                     their hunger.</p>
 
-                    <p>Dhampir Hungers</p>
+                    <h4>Dhampir Hungers</h4>
                     <p>Every dhampir knows a thirst slaked only by the 
                     living. This desire is a whisper in the mind, a 
                     tinge to the sight, a reflex constantly needing to 
@@ -41,42 +41,44 @@
                     character might otherwise gain sustenance from 
                     the living. Roll on or choose an option from the 
                     Dhampir Hungers table to determine what 
-                    tempts your character to feed. 
-                    Dhampir Hungers</p>
-                    <p>d8 Hunger</p>
-                    <ul>
-                        <li>1 Blood</li>
-                        <li>2 Flesh or raw meat</li>
-                        <li>3 Cerebral spinal fluid</li>
-                        <li>4 Esoteric humors</li>
-                        <li>5 Psychic energy</li>
-                        <li>6 A color from one’s appearance</li>
-                        <li>7 Dreams</li>
-                        <li>8 Life energy</li>
-                    </ul>
+                    tempts your character to feed:</p>
+                    <table>
+                        <thead>
+                            <tr><td>d8</td><td>Hunger</td></tr>
+                        </thead>
+                        <tr><td>1</td><td>Blood</td></tr>
+                        <tr><td>2</td><td>Flesh or raw meat</td></tr>
+                        <tr><td>3</td><td>Cerebral spinal fluid</td></tr>
+                        <tr><td>4</td><td>Esoteric humors</td></tr>
+                        <tr><td>5</td><td>Psychic energy</td></tr>
+                        <tr><td>6</td><td>A color from one’s appearance</td></tr>
+                        <tr><td>7</td><td>Dreams</td></tr>
+                        <tr><td>8</td><td>Life energy</td></tr>
+                    </table>
 
-                    <p>Dhampir Origins</p>
+                    <h4>Dhampir Origins</h4>
                     <p>Dhampirs often arise from encounters with 
                     vampires, but all manner of macabre bargains, 
                     necromantic influences, and encounters with 
                     mysterious immortals might have transformed 
                     your character. The Dhampir Origins table 
                     provides suggestions for how your character 
-                    gained their lineage.</p>
-                    <p>Dhampir Origins</p>
-                    <p>d8 Origin</p>
-                    <ul>
-                        <li>1 You are the reincarnation of an ancestor who was a vampiric tyrant.</li>
-                        <li>2 Your pact with a predatory deity, fiend, fey, or spirit causes you to share their hunger.</li>
-                        <li>3 You survived being attacked by a vampire but were forever changed.</li>
-                        <li>4 A parasite inhabits your body. You indulge your hunger to sate it.</li>
-                        <li>5 You loved an immortal and were willing to be transformed into a vampire to join them, but tragedy interrupted the transformation.</li>
-                        <li>6 You are a diminished manifestation of an otherworldly being. Slaking your hunger hastens your renewal.</li>
-                        <li>7 You don’t know your origins, but you were raised by vampires or other monsters.</li>
-                        <li>8 A radical experiment changed your body, making you reliant on others for vital fluids.</li>
-                    </ul>
+                    gained their lineage:</p>
+                    <table>
+                        <thead>
+                            <tr><td>d8</td><td>Origin</td></tr>
+                        </thead>
+                        <tr><td>1</td><td>You are the reincarnation of an ancestor who was a vampiric tyrant.</td></tr>
+                        <tr><td>2</td><td>Your pact with a predatory deity, fiend, fey, or spirit causes you to share their hunger.</td></tr>
+                        <tr><td>3</td><td>You survived being attacked by a vampire but were forever changed.</td></tr>
+                        <tr><td>4</td><td>A parasite inhabits your body. You indulge your hunger to sate it.</td></tr>
+                        <tr><td>5</td><td>You loved an immortal and were willing to be transformed into a vampire to join them, but tragedy interrupted the transformation.</td></tr>
+                        <tr><td>6</td><td>You are a diminished manifestation of an otherworldly being. Slaking your hunger hastens your renewal.</td></tr>
+                        <tr><td>7</td><td>You don’t know your origins, but you were raised by vampires or other monsters.</td></tr>
+                        <tr><td>8</td><td>A radical experiment changed your body, making you reliant on others for vital fluids.</td></tr>
+                    </table>>
 
-                    <p>Dhampir Traits</p>
+                    <h4>Dhampir Traits</h4>
                     <p>Type: Humanoid and Undead</p>
                     <p>Size: Medium or Small (choose when you gain 
                     this lineage)</p>
@@ -209,6 +211,56 @@
                 <sheet diplay="false" />
                 <rules>
                     <stat name="dexterity" value="2" />
+                </rules>
+            </element>
+
+            <element name="Vampiric Charm" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Cha">
+                <supports>Dhampir</supports>
+                <description>
+                    <p>You inherit the dangerous charm from your vampiric nature.</p>
+                    <p class="indent"><charismatic><em>Ability Score Increase.</em></charismatic> Your Charisma score increases by 2.</p>
+                    <p>Your physique looks very fit regardless of how strong you actually are.</p>
+                </description>
+                <sheet diplay="false" />
+                <rules>
+                    <stat name="charisma" value="2" />
+                </rules>
+            </element>
+
+            <element name="Vampiric Mind" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Int">
+                <supports>Dhampir</supports>
+                <description>
+                    <p>You've had many years, maybe even centuries, to expanding your mind.</p>
+                    <p class="indent"><intelligent><em>Ability Score Increase.</em></intelligent> Your Intelligence score increases by 2.</p>
+                    <p>Your eyes shimmer when you think hard.</p>
+                </description>
+                <sheet diplay="false" />
+                <rules>
+                    <stat name="intelligence" value="2" />
+                </rules>
+            </element>
+
+            <element name="Vampiric Resilience" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Con">
+                <supports>Dhampir</supports>
+                <description>
+                    <p>You inherit the resilience of a vampire, or maybe you've always been greedy with your food. Nonetheless, you have an unnatural resilience.</p>
+                    <p class="indent"><constituted><em>Ability Score Increase.</em></constituded> Your Constitution score increases by 2.</p>
+                    <p>Your vampiric nature is more physically apparent. You have one or more of the following traits:</p>
+                    <table>
+                            <thead>
+                               <tr><td>d6</td><td>Traits</td></tr>
+                            </thead>
+                            <tr><td>1</td><td>Vampiric Fangs</td></tr>
+                            <tr><td>2</td><td>Pointy Bat-like Ears</td></tr>
+                            <tr><td>3</td><td>Long Claws</td></tr>
+                            <tr><td>4</td><td>Pale Almost Colorless Skin</td></tr>
+                            <tr><td>5</td><td>Red Eyes</td></tr>
+                            <tr><td>6</td><td>White Hair</td></tr>
+                    </table>
+                </description>
+                <sheet diplay="false" />
+                <rules>
+                    <stat name="constitution" value="2" />
                 </rules>
             </element>
 
