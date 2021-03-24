@@ -123,7 +123,7 @@
                      <grant type="Vision" id="Vampire_Darkvision" />
                      <grant type="Size" id="ID_SIZE_MEDIUM" />
                      <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_UA20171113_SUB_RACE_GRUGACH" />
-                     <select type="Language" name="Language (Human)" supports="Standard||Exotic" requirements="!ID_UA_PS_GRANTS_HUMAN_VARIANT,!ID_WOTC_ERLW_DRAGONMARK_MARK_OF_FINDING"/>
+                     <select type="Language" name="Language (Dhampir)" supports="Standard||Exotic" requirements="!ID_UA_PS_GRANTS_HUMAN_VARIANT,!ID_WOTC_ERLW_DRAGONMARK_MARK_OF_FINDING"/>
                      <grant type="Racial Trait" id="Vampire_Climb" />
                      <grant type="Racial Trait" id="Vampiric_Bite" />
                      <grant type="Racial Trait" id="Dhampire_Subraces" />
