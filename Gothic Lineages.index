@@ -8,8 +8,8 @@
 		</update>
 	</info>
 	<files>
-		<file name="Dhampir Race.index" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/main/Dhampir%20Race.index" />
-		<file name="Dhampir Dex Subrace.index" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/main/Dhampir%20Dex%20Subrace.index" />
-		<file name="Dhampir Str Subrace.index" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/main/Dhampir%20Str%20Subrace.index" />
+		<file name="Dhampir Race.xml" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/main/Dhampir%20Race.xml" />
+		<file name="Dhampir Dex Subrace.xml" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/main/Dhampir%20Dex%20Subrace.xml" />
+		<file name="Dhampir Str Subrace.xml" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/main/Dhampir%20Str%20Subrace.xml" />
 	</files>
 </index>
