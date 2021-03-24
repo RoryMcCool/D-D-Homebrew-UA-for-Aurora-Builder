@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Gothic Lineages</name>
+		<description>The content from UA Gothic Lineages with a slight bit of Homebrew. Currently Only Dhampir.</description>
+		<update version="0.1">
+			<file name="Gothic Lineages.index" url="" />
+		</update>
+	</info>
+	<files>
+		<file name="Dhampir Race.index" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/main/Dhampir%20Race.index" />
+		<file name="Dhampir Dex Subrace.index" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/main/Dhampir%20Dex%20Subrace.index" />
+		<file name="Dhampir Str Subrace.index" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/main/Dhampir%20Str%20Subrace.index" />
+	</files>
+</index>
