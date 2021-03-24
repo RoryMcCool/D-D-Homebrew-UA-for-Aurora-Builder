@@ -79,7 +79,8 @@
                     <p>You can see in dim light within 60 
                     feet of you as if it were bright light and in 
                     darkness as if it were dim light. 
-                    Spider Climb. You have a climbing speed equal 
+                    <p>Spider Climb.</p>
+                    <p>You have a climbing speed equal 
                     to your walking speed. In addition, at 3rd level, 
                     you can move up, down, and across vertical 
                     surfaces and upside down along ceilings, while 
@@ -90,7 +91,7 @@
                     with which you are proficient. You add your 
                     Constitution modifier to the attack and damage 
                     rolls when you attack with your bite. Your bite 
-                    deals 1d4 piercing damage on a hit. While you 
+                    deals 1d6 piercing damage on a hit. While you 
                     are missing half or more of your hit points, you 
                     have advantage on attack rolls you make with 
                     this bite.</p>
@@ -99,9 +100,9 @@
                     yourself in one of the following ways of your 
                     choice:</p>
                     <ul>
-                        <li>• regain hit points equal to the damage dealt by 
+                        <li>regain hit points equal to the damage dealt by 
                         the bite</li>
-                        <li>• gain a bonus to the next ability check or attack 
+                        <li>gain a bonus to the next ability check or attack 
                         roll you make; the bonus equals the damage 
                         dealt by the bite</li>
                     </ul>
@@ -111,18 +112,84 @@
                     you finish a long rest.</p>
                     <p class="indent"><wise><em>Ability Score Increase.</em></wise> Your Wisdom score increases by 1.</p>
                 </description>
+                <sheet display="false" />
                 <rules>
                      <stat name="wisdom" value="1" />
+                     <stat name="innate speed" value="35" bonus="base" />
+                     <grant type="Vision" id="Vampire_Darkvision" />
+                     <grant type="Size" id="ID_SIZE_MEDIUM" />
+                     <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_UA20171113_SUB_RACE_GRUGACH" />
+                     <select type="Language" name="Language (Human)" supports="Standard||Exotic" requirements="!ID_UA_PS_GRANTS_HUMAN_VARIANT,!ID_WOTC_ERLW_DRAGONMARK_MARK_OF_FINDING"/>
+                     <grant type="Racial Trait" id="Vampire_Climb" />
+                     <grant type="Racial Trait" id="Vampiric_Bite" />
+                     <grant type="Racial Trait" id="Dhampire_Subraces" />
                 </rules>
             </element>
 
-            <element name="Vampiric Grace" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Str">
+            <element name="Spider Climb" type="Racial Trait" source="UA Gothic Lineages" id="Vampire_Climb">
+                <description>
+                    <p>Spider Climb</p>
+                    <p class="indent">You have a climbing speed equal 
+                    to your walking speed. In addition, at 3rd level, 
+                    you can move up, down, and across vertical 
+                    surfaces and upside down along ceilings, while 
+                    leaving your hands free.</p>
+                </description>
+            </element>
+
+            <element name="Vampiric Bite" type="Racial Trait" source="UA Gothic Lineages" id="Vampiric_Bite">
+                <description>
+                    <p>Vampiric Bite.</p> 
+                    <p>Your fanged bite is a natural 
+                    weapon, which counts as a simple melee weapon 
+                    with which you are proficient. You add your 
+                    Constitution modifier to the attack and damage 
+                    rolls when you attack with your bite. Your bite 
+                    deals 1d6 piercing damage on a hit. While you 
+                    are missing half or more of your hit points, you 
+                    have advantage on attack rolls you make with 
+                    this bite. When you use your bite and hit a creature that 
+                    isn’t a Construct or an Undead, you can empower 
+                    yourself in one of the following ways of your 
+                    choice:</p>
+                    <ul>
+                        <li>regain hit points equal to the damage dealt by 
+                        the bite</li>
+                        <li>>gain a bonus to the next ability check or attack 
+                        roll you make; the bonus equals the damage 
+                        dealt by the bite</li>
+                    </ul>
+                    <p>Can use a number of times equal to your proficiency bonus.</p>
+                </description>
+            </element>
+
+            <element name="Darkvision" type="Vision" source="UA Gothic Lineages" id="Vampire_Darkvision">
+                <description>
+                    <p>You can see in dim light within 60 
+                    feet of you as if it were bright light and in 
+                    darkness as if it were dim light.</P>
+                </description>
+            </element>
+
+            <element name="Dhampire Subrace" type="Racial Trait" source="UA Gothic Lineages" id="Dhampire_Subraces">
+                <description>
+                    <p>You gain either unnatural strength or dexterity from your vampiric nature. Choose one of these bonuses.</p>
+                </description>
+                <sheet display="false"/>
+                <rules>
+                    <select type="Sub Race" name="Dhampire Subrace" supports="Dhampir" />
+                </rules>
+            </element>
+
+
+            <element name="Vampiric Strength" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Str">
                 <supports>Dhampir</supports>
                 <description>
                     <p>You inherit the unnatural strength of your vampiric nature.</p>
                     <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2.</p>
                     <p>You weigh significantly more than you look, perhaps this is the reason for your unnatural strength.</p>
                 </description>
+                <sheet diplay="false" />
                 <rules>
                     <stat name="strength" value="2" />
                 </rules>
@@ -135,6 +202,7 @@
                     <p class="indent"><dexterous><em>Ability Score Increase.</em></dexterous> Your Dexterity score increases by 2.</p>
                     <p>You weigh significantly less than you you look, perhaps this is the reason for your gracefullness.</p>
                 </description>
+                <sheet diplay="false" />
                 <rules>
                     <stat name="dexterity" value="2" />
                 </rules>
