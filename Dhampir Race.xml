@@ -244,7 +244,7 @@
                 <supports>Dhampir</supports>
                 <description>
                     <p>You inherit the resilience of a vampire, or maybe you've always been greedy with your food. Nonetheless, you have an unnatural resilience.</p>
-                    <p class="indent"><constituted><em>Ability Score Increase.</em></constituded> Your Constitution score increases by 2.</p>
+                    <p class="indent"><constituted><em>Ability Score Increase.</em></constituted> Your Constitution score increases by 2.</p>
                     <p>Your vampiric nature is more physically apparent. You have one or more of the following traits:</p>
                     <table>
                             <thead>
