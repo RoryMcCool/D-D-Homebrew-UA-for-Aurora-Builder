@@ -4,7 +4,7 @@
 		<name>Gothic Lineages</name>
 		<description>The content from UA Gothic Lineages with a slight bit of Homebrew. Currently Only Dhampir.</description>
 		<update version="0.1">
-			<file name="Gothic Lineages.index" url="" />
+			<file name="Gothic Lineages.index" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/main/Gothic%20Lineages.index" />
 		</update>
 	</info>
 	<files>
