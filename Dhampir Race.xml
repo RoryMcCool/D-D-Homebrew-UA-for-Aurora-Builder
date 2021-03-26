@@ -2,7 +2,7 @@
 <elements>
             <info>
                     <name>Dhampir</name>
-                    <update version="1.1">
+                    <update version="1.2">
                         <file name="Dhampir Race.xml" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/main/Dhampir%20Race.xml" />
                     </update>
             </info>
