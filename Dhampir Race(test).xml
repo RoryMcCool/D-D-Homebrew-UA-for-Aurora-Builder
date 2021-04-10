@@ -3,7 +3,7 @@
             <info>
                     <name>Dhampir</name>
                     <update version="1.3">
-                        <file name="Dhampir Race(test).xml" url="" />
+                        <file name="Dhampir Race(test).xml" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/RoryMcCool-Test/Dhampir%20Race(test).xml" />
                     </update>
             </info>
             <element name="Dhampir" type="Race" source="UA Gothic Lineages" id="Dhampir">
@@ -117,11 +117,9 @@
                     number of times equal to your proficiency 
                     bonus, and you regain all expended uses when 
                     you finish a long rest.</p>
-                    <p class="indent"><wise><em>Ability Score Increase.</em></wise> Your Wisdom score increases by 1.</p>
                 </description>
                 <sheet display="false" />
                 <rules>
-                     <stat name="wisdom" value="1" />
                      <stat name="innate speed" value="35" bonus="base" />
                      <grant type="Vision" id="Vampire_Darkvision" />
                      <grant type="Size" id="ID_SIZE_MEDIUM" />
@@ -180,7 +178,7 @@
 
             <element name="Dhampire Subrace" type="Racial Trait" source="UA Gothic Lineages" id="Dhampire_Subraces">
                 <description>
-                    <p>You gain either unnatural strength or dexterity from your vampiric nature. Choose one of these bonuses.</p>
+                    <p>You gain enhanced abilities from your vampiric nature. Choose a +2 to an ability of your choice as well as a +1 to a different ability of your choice.</p>
                 </description>
                 <sheet display="false"/>
                 <rules>
@@ -189,7 +187,7 @@
             </element>
 
 
-            <element name="Vampiric Strength" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Str">
+            <element name="Vampiric Strength(2)" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Str">
                 <supports>Dhampir</supports>
                 <description>
                     <p>You inherit the unnatural strength of your vampiric nature.</p>
@@ -202,7 +200,7 @@
                 </rules>
             </element>
 
-            <element name="Vampiric Grace" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Dex">
+            <element name="Vampiric Grace(2)" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Dex">
                 <supports>Dhampir</supports>
                 <description>
                     <p>You inherit the gracefullness of your vampiric nature.</p>
@@ -215,7 +213,7 @@
                 </rules>
             </element>
 
-            <element name="Vampiric Charm" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Cha">
+            <element name="Vampiric Charm(2)" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Cha">
                 <supports>Dhampir</supports>
                 <description>
                     <p>You inherit the dangerous charm from your vampiric nature.</p>
@@ -228,7 +226,7 @@
                 </rules>
             </element>
 
-            <element name="Vampiric Mind" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Int">
+            <element name="Vampiric Mind(2)" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Int">
                 <supports>Dhampir</supports>
                 <description>
                     <p>You've had many years, maybe even centuries, to expanding your mind.</p>
@@ -241,7 +239,20 @@
                 </rules>
             </element>
 
-            <element name="Vampiric Resilience" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Con">
+            <element name="Ancient Wisdom(2)" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Wis">
+                <supports>Dhampir</supports>
+                <description>
+                    <p>You've been around for hundreds of years, or gained some wisdom from your vampiric side.</p>
+                    <p class="indent"><wise><em>Ability Score Increase.</em></wise> Your Wisdom score increases by 2.</p>
+                    <p>You weigh significantly more than you look, perhaps this is the reason for your unnatural strength.</p>
+                </description>
+                <sheet diplay="false" />
+                <rules>
+                    <stat name="wisdom" value="2" />
+                </rules>
+            </element>
+
+            <element name="Vampiric Resilience(2)" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Con">
                 <supports>Dhampir</supports>
                 <description>
                     <p>You inherit the resilience of a vampire, or maybe you've always been greedy with your food. Nonetheless, you have an unnatural resilience.</p>
@@ -262,6 +273,95 @@
                 <sheet diplay="false" />
                 <rules>
                     <stat name="constitution" value="2" />
+                </rules>
+            </element>
+
+            <element name="Vampiric Strength(1)" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Str_1">
+                <supports>Dhampir</supports>
+                <description>
+                    <p>You inherit the unnatural strength of your vampiric nature.</p>
+                    <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
+                    <p>You weigh significantly more than you look, perhaps this is the reason for your unnatural strength.</p>
+                </description>
+                <sheet diplay="false" />
+                <rules>
+                    <stat name="strength" value="1" />
+                </rules>
+            </element>
+
+            <element name="Vampiric Grace(1)" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Dex_1">
+                <supports>Dhampir</supports>
+                <description>
+                    <p>You inherit the gracefullness of your vampiric nature.</p>
+                    <p class="indent"><dexterous><em>Ability Score Increase.</em></dexterous> Your Dexterity score increases by 1.</p>
+                    <p>You weigh significantly less than you you look, perhaps this is the reason for your gracefullness.</p>
+                </description>
+                <sheet diplay="false" />
+                <rules>
+                    <stat name="dexterity" value="1" />
+                </rules>
+            </element>
+
+            <element name="Vampiric Charm(1)" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Cha_1">
+                <supports>Dhampir</supports>
+                <description>
+                    <p>You inherit the dangerous charm from your vampiric nature.</p>
+                    <p class="indent"><charismatic><em>Ability Score Increase.</em></charismatic> Your Charisma score increases by 1.</p>
+                    <p>Your physique looks very fit regardless of how strong you actually are.</p>
+                </description>
+                <sheet diplay="false" />
+                <rules>
+                    <stat name="charisma" value="1" />
+                </rules>
+            </element>
+
+            <element name="Vampiric Mind(1)" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Int_1">
+                <supports>Dhampir</supports>
+                <description>
+                    <p>You've had many years, maybe even centuries, to expanding your mind.</p>
+                    <p class="indent"><intelligent><em>Ability Score Increase.</em></intelligent> Your Intelligence score increases by 1.</p>
+                    <p>Your eyes shimmer when you think hard.</p>
+                </description>
+                <sheet diplay="false" />
+                <rules>
+                    <stat name="intelligence" value="1" />
+                </rules>
+            </element>
+
+            <element name="Ancient Wisdom(1)" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Wis_1">
+                <supports>Dhampir</supports>
+                <description>
+                    <p>You've been around for hundreds of years, or gained some wisdom from your vampiric side.</p>
+                    <p class="indent"><wise><em>Ability Score Increase.</em></wise> Your Wisdom score increases by 1.</p>
+                    <p>You weigh significantly more than you look, perhaps this is the reason for your unnatural strength.</p>
+                </description>
+                <sheet diplay="false" />
+                <rules>
+                    <stat name="wisdom" value="1" />
+                </rules>
+            </element>
+
+            <element name="Vampiric Resilience(1)" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Con_1">
+                <supports>Dhampir</supports>
+                <description>
+                    <p>You inherit the resilience of a vampire, or maybe you've always been greedy with your food. Nonetheless, you have an unnatural resilience.</p>
+                    <p class="indent"><constituted><em>Ability Score Increase.</em></constituted> Your Constitution score increases by 1.</p>
+                    <p>Your vampiric nature is more physically apparent. You have one or more of the following traits:</p>
+                    <table>
+                            <thead>
+                               <tr><td>d6</td><td>Traits</td></tr>
+                            </thead>
+                            <tr><td>1</td><td>Vampiric Fangs</td></tr>
+                            <tr><td>2</td><td>Pointy Bat-like Ears</td></tr>
+                            <tr><td>3</td><td>Long Claws</td></tr>
+                            <tr><td>4</td><td>You Don't Have a Reflection</td></tr>
+                            <tr><td>5</td><td>Red Eyes</td></tr>
+                            <tr><td>6</td><td>You Don't Cast a Shadow</td></tr>
+                    </table>
+                </description>
+                <sheet diplay="false" />
+                <rules>
+                    <stat name="constitution" value="1" />
                 </rules>
             </element>
 
