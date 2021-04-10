@@ -6,7 +6,7 @@
                         <file name="Dhampir Race(test).xml" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/RoryMcCool-Test/Dhampir%20Race(test).xml" />
                     </update>
             </info>
-            <element name="Dhampir" type="Race" source="UA Gothic Lineages" id="Dhampir">
+            <element name="Dhampir(test)" type="Race" source="UA Gothic Lineages" id="Dhampir">
                 <description> 
                     <p>Poised between the worlds of the living and the 
                     dead, dhampirs retain their grip on life yet are 
@@ -196,7 +196,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="strength" value="2" requirements="!(Dhampir_Str_1)"/>
+                    <stat name="strength" value="2" />
                 </rules>
             </element>
 
@@ -209,7 +209,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="dexterity" value="2" requirements="!(Dhampir_Dex_1)"/>
+                    <stat name="dexterity" value="2" />
                 </rules>
             </element>
 
@@ -222,7 +222,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="charisma" value="2" requirements="!(Dhampir_Cha_1)"/>
+                    <stat name="charisma" value="2" />
                 </rules>
             </element>
 
@@ -235,7 +235,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="intelligence" value="2" requirements="!(Dhampir_Int_1)"/>
+                    <stat name="intelligence" value="2" />
                 </rules>
             </element>
 
@@ -248,7 +248,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="wisdom" value="2" requirements="!(Dhampir_Wis_1)"/>
+                    <stat name="wisdom" value="2" />
                 </rules>
             </element>
 
@@ -272,7 +272,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="constitution" value="2" requirements="!(Dhampir_Con_1)"/>
+                    <stat name="constitution" value="2" />
                 </rules>
             </element>
 
