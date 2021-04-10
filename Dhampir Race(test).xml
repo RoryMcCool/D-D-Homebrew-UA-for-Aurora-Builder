@@ -1,0 +1,268 @@
+<?xml version="1.1" encoding="utf-8" ?>
+<elements>
+            <info>
+                    <name>Dhampir</name>
+                    <update version="1.3">
+                        <file name="Dhampir Race(test).xml" url="" />
+                    </update>
+            </info>
+            <element name="Dhampir" type="Race" source="UA Gothic Lineages" id="Dhampir">
+                <description> 
+                    <p>Poised between the worlds of the living and the 
+                    dead, dhampirs retain their grip on life yet are 
+                    endlessly tested by vicious hungers. Their ties to 
+                    the undead grant dhampirs a taste of a vampire’s 
+                    deathless prowess in the form of increased 
+                    speed, darkvision, and a life-draining bite. With 
+                    unique insights into the nature of the undead, 
+                    many dhampirs turn to the lives of adventurers 
+                    and monster hunters. Their reasons are often 
+                    deeply personal. Some seek danger, imagining 
+                    monsters as personifications of their own 
+                    hungers. Others pursue revenge against 
+                    whatever turned them into a dhampir. And still 
+                    others embrace the solitude of the hunt, striving 
+                    to distance themselves from those who’d tempt 
+                    their hunger.</p>
+
+                    <h4>Dhampir Hungers</h4>
+                    <p>Every dhampir knows a thirst slaked only by the 
+                    living. This desire is a whisper in the mind, a 
+                    tinge to the sight, a reflex constantly needing to 
+                    be suppressed. Those who overindulge their 
+                    thirst risk losing control and forever viewing 
+                    others as prey. Those who resist might find 
+                    exceptional ways of controlling their urges or 
+                    suppress it through constant, molar-grinding 
+                    restraint. In any case, temptation haunts 
+                    dhampirs, and circumstances conspire to give 
+                    them endless reasons to indulge. 
+                    While many dhampirs thirst for blood, your 
+                    character might otherwise gain sustenance from 
+                    the living. Roll on or choose an option from the 
+                    Dhampir Hungers table to determine what 
+                    tempts your character to feed:</p>
+                     <h5 class="caption"></h5>
+                    <table class="Race-features">
+                        <thead>
+                            <tr><td>d8</td><td>Hunger</td></tr>
+                        </thead>
+                        <tr><td>1</td><td>Blood</td></tr>
+                        <tr><td>2</td><td>Flesh or raw meat</td></tr>
+                        <tr><td>3</td><td>Cerebral spinal fluid</td></tr>
+                        <tr><td>4</td><td>Esoteric humors</td></tr>
+                        <tr><td>5</td><td>Psychic energy</td></tr>
+                        <tr><td>6</td><td>A color from one’s appearance</td></tr>
+                        <tr><td>7</td><td>Dreams</td></tr>
+                        <tr><td>8</td><td>Life energy</td></tr>
+                    </table>
+
+                    <h4>Dhampir Origins</h4>
+                    <p>Dhampirs often arise from encounters with 
+                    vampires, but all manner of macabre bargains, 
+                    necromantic influences, and encounters with 
+                    mysterious immortals might have transformed 
+                    your character. The Dhampir Origins table 
+                    provides suggestions for how your character 
+                    gained their lineage:</p>
+                    <table>
+                        <thead>
+                            <tr><td>d8</td><td>Origin</td></tr>
+                        </thead>
+                        <tr><td>1</td><td>You are the reincarnation of an ancestor who was a vampiric tyrant.</td></tr>
+                        <tr><td>2</td><td>Your pact with a predatory deity, fiend, fey, or spirit causes you to share their hunger.</td></tr>
+                        <tr><td>3</td><td>You survived being attacked by a vampire but were forever changed.</td></tr>
+                        <tr><td>4</td><td>A parasite inhabits your body. You indulge your hunger to sate it.</td></tr>
+                        <tr><td>5</td><td>You loved an immortal and were willing to be transformed into a vampire to join them, but tragedy interrupted the transformation.</td></tr>
+                        <tr><td>6</td><td>You are a diminished manifestation of an otherworldly being. Slaking your hunger hastens your renewal.</td></tr>
+                        <tr><td>7</td><td>You don’t know your origins, but you were raised by vampires or other monsters.</td></tr>
+                        <tr><td>8</td><td>A radical experiment changed your body, making you reliant on others for vital fluids.</td></tr>
+                    </table>
+
+                    <h4>Dhampir Traits</h4>
+                    <p>Type: Humanoid and Undead</p>
+                    <p>Size: Medium or Small (choose when you gain 
+                    this lineage)</p>
+                    <p>Speed: 35 feet</p>
+                    <p>Darkvision.</p> 
+                    <p>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light.</p>
+                    <p>Spider Climb.</p>
+                    <p>You have a climbing speed equal 
+                    to your walking speed. In addition, at 3rd level, 
+                    you can move up, down, and across vertical 
+                    surfaces and upside down along ceilings, while 
+                    leaving your hands free.</p>
+                    <p>Vampiric Bite.</p> 
+                    <p>Your fanged bite is a natural 
+                    weapon, which counts as a simple melee weapon 
+                    with which you are proficient. You add your 
+                    Constitution modifier to the attack and damage 
+                    rolls when you attack with your bite. Your bite 
+                    deals 1d6 piercing damage on a hit. While you 
+                    are missing half or more of your hit points, you 
+                    have advantage on attack rolls you make with 
+                    this bite.</p>
+                    <p>When you use your bite and hit a creature that 
+                    isn’t a Construct or an Undead, you can empower 
+                    yourself in one of the following ways of your 
+                    choice:</p>
+                    <ul>
+                        <li>regain hit points equal to the damage dealt by 
+                        the bite</li>
+                        <li>gain a bonus to the next ability check or attack 
+                        roll you make; the bonus equals the damage 
+                        dealt by the bite</li>
+                    </ul>
+                    <p>You can empower yourself with your bite a 
+                    number of times equal to your proficiency 
+                    bonus, and you regain all expended uses when 
+                    you finish a long rest.</p>
+                    <p class="indent"><wise><em>Ability Score Increase.</em></wise> Your Wisdom score increases by 1.</p>
+                </description>
+                <sheet display="false" />
+                <rules>
+                     <stat name="wisdom" value="1" />
+                     <stat name="innate speed" value="35" bonus="base" />
+                     <grant type="Vision" id="Vampire_Darkvision" />
+                     <grant type="Size" id="ID_SIZE_MEDIUM" />
+                     <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_UA20171113_SUB_RACE_GRUGACH" />
+                     <select type="Language" name="Language (Dhampir)" supports="Standard||Exotic" requirements="!ID_UA_PS_GRANTS_HUMAN_VARIANT,!ID_WOTC_ERLW_DRAGONMARK_MARK_OF_FINDING"/>
+                     <grant type="Racial Trait" id="Vampire_Climb" />
+                     <grant type="Racial Trait" id="Vampiric_Bite" />
+                     <grant type="Racial Trait" id="Dhampire_Subraces" />
+                </rules>
+            </element>
+
+            <element name="Spider Climb" type="Racial Trait" source="UA Gothic Lineages" id="Vampire_Climb">
+                <description>
+                    <p>Spider Climb</p>
+                    <p class="indent">You have a climbing speed equal 
+                    to your walking speed. In addition, at 3rd level, 
+                    you can move up, down, and across vertical 
+                    surfaces and upside down along ceilings, while 
+                    leaving your hands free.</p>
+                </description>
+            </element>
+
+            <element name="Vampiric Bite" type="Racial Trait" source="UA Gothic Lineages" id="Vampiric_Bite">
+                <description>
+                    <p>Vampiric Bite.</p> 
+                    <p>Your fanged bite is a natural 
+                    weapon, which counts as a simple melee weapon 
+                    with which you are proficient. You add your 
+                    Constitution modifier to the attack and damage 
+                    rolls when you attack with your bite. Your bite 
+                    deals 1d6 piercing damage on a hit. While you 
+                    are missing half or more of your hit points, you 
+                    have advantage on attack rolls you make with 
+                    this bite. When you use your bite and hit a creature that 
+                    isn’t a Construct or an Undead, you can empower 
+                    yourself in one of the following ways of your 
+                    choice:</p>
+                    <ul>
+                        <li>regain hit points equal to the damage dealt by 
+                        the bite</li>
+                        <li>>gain a bonus to the next ability check or attack 
+                        roll you make; the bonus equals the damage 
+                        dealt by the bite</li>
+                    </ul>
+                    <p>Can use a number of times equal to your proficiency bonus.</p>
+                </description>
+            </element>
+
+            <element name="Darkvision" type="Vision" source="UA Gothic Lineages" id="Vampire_Darkvision">
+                <description>
+                    <p>You can see in dim light within 60 
+                    feet of you as if it were bright light and in 
+                    darkness as if it were dim light.</p>
+                </description>
+            </element>
+
+            <element name="Dhampire Subrace" type="Racial Trait" source="UA Gothic Lineages" id="Dhampire_Subraces">
+                <description>
+                    <p>You gain either unnatural strength or dexterity from your vampiric nature. Choose one of these bonuses.</p>
+                </description>
+                <sheet display="false"/>
+                <rules>
+                    <select type="Sub Race" name="Dhampire Subrace" supports="Dhampir" />
+                </rules>
+            </element>
+
+
+            <element name="Vampiric Strength" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Str">
+                <supports>Dhampir</supports>
+                <description>
+                    <p>You inherit the unnatural strength of your vampiric nature.</p>
+                    <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2.</p>
+                    <p>You weigh significantly more than you look, perhaps this is the reason for your unnatural strength.</p>
+                </description>
+                <sheet diplay="false" />
+                <rules>
+                    <stat name="strength" value="2" />
+                </rules>
+            </element>
+
+            <element name="Vampiric Grace" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Dex">
+                <supports>Dhampir</supports>
+                <description>
+                    <p>You inherit the gracefullness of your vampiric nature.</p>
+                    <p class="indent"><dexterous><em>Ability Score Increase.</em></dexterous> Your Dexterity score increases by 2.</p>
+                    <p>You weigh significantly less than you you look, perhaps this is the reason for your gracefullness.</p>
+                </description>
+                <sheet diplay="false" />
+                <rules>
+                    <stat name="dexterity" value="2" />
+                </rules>
+            </element>
+
+            <element name="Vampiric Charm" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Cha">
+                <supports>Dhampir</supports>
+                <description>
+                    <p>You inherit the dangerous charm from your vampiric nature.</p>
+                    <p class="indent"><charismatic><em>Ability Score Increase.</em></charismatic> Your Charisma score increases by 2.</p>
+                    <p>Your physique looks very fit regardless of how strong you actually are.</p>
+                </description>
+                <sheet diplay="false" />
+                <rules>
+                    <stat name="charisma" value="2" />
+                </rules>
+            </element>
+
+            <element name="Vampiric Mind" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Int">
+                <supports>Dhampir</supports>
+                <description>
+                    <p>You've had many years, maybe even centuries, to expanding your mind.</p>
+                    <p class="indent"><intelligent><em>Ability Score Increase.</em></intelligent> Your Intelligence score increases by 2.</p>
+                    <p>Your eyes shimmer when you think hard.</p>
+                </description>
+                <sheet diplay="false" />
+                <rules>
+                    <stat name="intelligence" value="2" />
+                </rules>
+            </element>
+
+            <element name="Vampiric Resilience" type="Sub Race" source="UA Gothic Lineages" id="Dhampir_Con">
+                <supports>Dhampir</supports>
+                <description>
+                    <p>You inherit the resilience of a vampire, or maybe you've always been greedy with your food. Nonetheless, you have an unnatural resilience.</p>
+                    <p class="indent"><constituted><em>Ability Score Increase.</em></constituted> Your Constitution score increases by 2.</p>
+                    <p>Your vampiric nature is more physically apparent. You have one or more of the following traits:</p>
+                    <table>
+                            <thead>
+                               <tr><td>d6</td><td>Traits</td></tr>
+                            </thead>
+                            <tr><td>1</td><td>Vampiric Fangs</td></tr>
+                            <tr><td>2</td><td>Pointy Bat-like Ears</td></tr>
+                            <tr><td>3</td><td>Long Claws</td></tr>
+                            <tr><td>4</td><td>You Don't Have a Reflection</td></tr>
+                            <tr><td>5</td><td>Red Eyes</td></tr>
+                            <tr><td>6</td><td>You Don't Cast a Shadow</td></tr>
+                    </table>
+                </description>
+                <sheet diplay="false" />
+                <rules>
+                    <stat name="constitution" value="2" />
+                </rules>
+            </element>
+
+</elements>
