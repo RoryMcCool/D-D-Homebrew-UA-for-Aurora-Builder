@@ -196,7 +196,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="strength" value="2" />
+                    <stat name="strength" value="2" requirements="!(Dhampir_Str_1)"/>
                 </rules>
             </element>
 
@@ -209,7 +209,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="dexterity" value="2" />
+                    <stat name="dexterity" value="2" requirements="!(Dhampir_Dex_1)"/>
                 </rules>
             </element>
 
@@ -222,7 +222,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="charisma" value="2" />
+                    <stat name="charisma" value="2" requirements="!(Dhampir_Cha_1)"/>
                 </rules>
             </element>
 
@@ -235,7 +235,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="intelligence" value="2" />
+                    <stat name="intelligence" value="2" requirements="!(Dhampir_Int_1)"/>
                 </rules>
             </element>
 
@@ -248,7 +248,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="wisdom" value="2" />
+                    <stat name="wisdom" value="2" requirements="!(Dhampir_Wis_1)"/>
                 </rules>
             </element>
 
@@ -272,7 +272,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="constitution" value="2" />
+                    <stat name="constitution" value="2" requirements="!(Dhampir_Con_1)"/>
                 </rules>
             </element>
 
@@ -285,7 +285,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="strength" value="1" />
+                    <stat name="strength" value="1" requirements="!(Dhampir_Str)"/>
                 </rules>
             </element>
 
@@ -298,7 +298,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="dexterity" value="1" />
+                    <stat name="dexterity" value="1" requirements="!(Dhampir_Dex)"/>
                 </rules>
             </element>
 
@@ -311,7 +311,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="charisma" value="1" />
+                    <stat name="charisma" value="1" requirements="!(Dhampir_Cha)"/>
                 </rules>
             </element>
 
@@ -324,7 +324,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="intelligence" value="1" />
+                    <stat name="intelligence" value="1" requirements="!(Dhampir_Int)"/>
                 </rules>
             </element>
 
@@ -337,7 +337,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="wisdom" value="1" />
+                    <stat name="wisdom" value="1" requirements="!(Dhampir_Wis)"/>
                 </rules>
             </element>
 
@@ -361,7 +361,7 @@
                 </description>
                 <sheet diplay="false" />
                 <rules>
-                    <stat name="constitution" value="1" />
+                    <stat name="constitution" value="1" requirements="!(Dhampir_Con)"/>
                 </rules>
             </element>
 
