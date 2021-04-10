@@ -3,7 +3,7 @@
 	<info>
 		<name>Test</name>
 		<description>Testing Tool</description>
-		<update version="0.1">
+		<update version="0.2">
 			<file name="Test.index" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/RoryMcCool-Test/Test.index" />
 		</update>
 	</info>
