@@ -4,10 +4,10 @@
 		<name>Test</name>
 		<description>Testing Tool</description>
 		<update version="0.1">
-			<file name="Test.index" url="" />
+			<file name="Test.index" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/RoryMcCool-Test/Test.index" />
 		</update>
 	</info>
 	<files>
-		<file name="Dhampir Race.xml" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/main/Dhampir%20Race.xml" />
+		<file name="Dhampir Race(test).xml" url="https://raw.githubusercontent.com/RoryMcCool/D-D-Homebrew-UA-for-Aurora-Builder/RoryMcCool-Test/Dhampir%20Race(test).xml" />
 	</files>
 </index>
